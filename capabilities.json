@@ -1,12 +1,12 @@
 {
     "dataRoles": [
         {
-            "displayName": "Category Data",
+            "displayName": "Axis",
             "name": "category",
             "kind": "Grouping"
         },
         {
-            "displayName": "Measure Data",
+            "displayName": "Values",
             "name": "measure",
             "kind": "Measure"
         }
@@ -47,7 +47,7 @@
                         "fill": {}
                     }
                 },
-                 "fontSize": {
+                "fontSize": {
                     "displayName": "Text Size",
                     "type": {
                         "formatting": {
@@ -60,6 +60,16 @@
     },
     "dataViewMappings": [
         {
+            "conditions": [
+                {
+                    "category": {
+                        "max": 1
+                    },
+                    "measure": {
+                        "max": 1
+                    }
+                }
+            ],
             "categorical": {
                 "categories": {
                     "for": {
