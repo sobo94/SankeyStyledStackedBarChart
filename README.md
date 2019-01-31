@@ -8,5 +8,6 @@ Live Demo
 inspired by :
 ---------------
 
-visual  - [pharmasug.org](http://www.pharmasug.org/proceedings/2015/DV/PharmaSUG-2015-DV07.pdf).
+visual  - [pharmasug.org](http://www.pharmasug.org/proceedings/2015/DV/PharmaSUG-2015-DV07.pdf).  
+
 dataset - [Kaggle](https://www.kaggle.com/kedokedokedo/vgsales).
